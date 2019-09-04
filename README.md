@@ -36,3 +36,14 @@ Caused by: javax.management.MalformedObjectNameException: Invalid character `:' 
 	at org.springframework.jmx.export.MBeanExporter.registerBeanNameOrInstance(MBeanExporter.java:615) ~[spring-context-5.1.9.RELEASE.jar:5.1.9.RELEASE]
 	... 13 common frames omitted
 ```
+## workaround
+Add jmx module as dependency.
+```
+<dependency>
+            <groupId>org.springframework.integration</groupId>
+            <artifactId>spring-integration-jmx</artifactId>
+</dependency>
+```
+
+---
+More details: https://github.com/spring-projects/spring-integration/issues/3051
