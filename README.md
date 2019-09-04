@@ -1,5 +1,6 @@
 # demo-mqtt-listener
-mqtt listener with issue
+Description: mqtt listener with issue.  
+Purpose: [spring-integration/#3051](https://github.com/spring-projects/spring-integration/issues/3051)
 ## environment
 ```
 docker-compose up -d
