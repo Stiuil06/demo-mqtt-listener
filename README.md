@@ -1,6 +1,6 @@
 # demo-mqtt-listener
 mqtt listener with issue
-## enviroment
+## environment
 ```
 docker-compose up -d
 ```
