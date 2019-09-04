@@ -37,6 +37,7 @@ Caused by: javax.management.MalformedObjectNameException: Invalid character `:' 
 	... 13 common frames omitted
 ```
 ## workaround
+[workaround branch](https://github.com/Stiuil06/demo-mqtt-listener/tree/workaround)  
 Add jmx module as dependency.
 ```
 <dependency>
